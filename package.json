@@ -1,1 +1,1 @@
-{"scripts":{"build":"node -e \"console.log(\\\"static site ready\\\")\""},"devDependencies":{}}
+{"scripts":{"build":"node build.js"},"devDependencies":{}}
