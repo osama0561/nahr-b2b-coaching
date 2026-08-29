@@ -4,12 +4,4 @@
     <loc>https://nahr-b2b-coaching.vercel.app/</loc>
     <priority>1.0</priority>
   </url>
-  <url>
-    <loc>https://nahr-b2b-coaching.vercel.app/downloads/nahr-proposal-template.pptx</loc>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>https://nahr-b2b-coaching.vercel.app/downloads/nahr-pricing-calculator.xlsx</loc>
-    <priority>0.4</priority>
-  </url>
 </urlset>
