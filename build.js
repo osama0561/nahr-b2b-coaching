@@ -4,7 +4,7 @@ const out = path.join(__dirname, 'public');
 const downloads = path.join(out, 'downloads');
 fs.rmSync(out, { recursive: true, force: true });
 fs.mkdirSync(downloads, { recursive: true });
-for (const file of ['index.html','styles.css','script.js']) {
+for (const file of ['index.html','styles.css','script.js','robots.txt','sitemap.xml']) {
   fs.copyFileSync(path.join(__dirname, file), path.join(out, file));
 }
 const downloadFiles = [

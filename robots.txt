@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://nahr-b2b-coaching.vercel.app/sitemap.xml
