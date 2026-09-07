@@ -1,6 +1,6 @@
 const form = document.getElementById('leadForm');
 const note = document.getElementById('formNote');
-const whatsappNumber = '966530011411';
+const whatsappNumber = '966541356286';
 
 function field(data, key, fallback = '-') {
   const value = (data[key] || '').trim();
