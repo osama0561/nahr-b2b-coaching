@@ -56,7 +56,6 @@
     <nav class="nav">
       <a class="brand" href="#top" aria-label="نهر">
         <img class="brand-logo" src="./assets/logo-dark.png" alt="شعار نهر" width="128" height="48" style="width:128px;height:48px;max-width:128px;object-fit:contain;" />
-        <span><strong>نهر</strong><small>تمكين AI وأنظمة العمل</small></span>
       </a>
       <div class="nav-links">
         <a href="#how">كيف نشتغل؟</a>
@@ -83,32 +82,20 @@
         </div>
       </div>
 
-      <div class="hero-visual" aria-label="تصميم ثلاثي الأبعاد يوضح تحويل الاحتياج إلى نظام عمل">
-        <svg viewBox="0 0 560 520" role="img" aria-labelledby="heroVisualTitle">
-          <title id="heroVisualTitle">نموذج نهر: من الاحتياج إلى تطبيق داخل العمل</title>
-          <defs>
-            <linearGradient id="gold" x1="0" x2="1"><stop stop-color="#f4d9a4"/><stop offset="1" stop-color="#b98949"/></linearGradient>
-            <linearGradient id="ink" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#24313a"/><stop offset="1" stop-color="#111514"/></linearGradient>
-            <filter id="soft"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#4a3823" flood-opacity=".24"/></filter>
-          </defs>
-          <rect x="48" y="42" width="430" height="350" rx="38" fill="#fff7eb" stroke="#e2d2bb"/>
-          <g filter="url(#soft)">
-            <path d="M140 170 L280 92 L420 170 L280 248 Z" fill="url(#gold)"/>
-            <path d="M140 170 L280 248 L280 395 L140 306 Z" fill="#d7b26f"/>
-            <path d="M420 170 L280 248 L280 395 L420 306 Z" fill="#9c7144"/>
-            <path d="M280 92 L420 170 L420 306 L280 229 Z" fill="#cfa260" opacity=".55"/>
-          </g>
-          <g class="node"><circle cx="113" cy="122" r="38"/><text x="113" y="117">واقع</text><text x="113" y="139">الجهة</text></g>
-          <g class="node"><circle cx="448" cy="116" r="38"/><text x="448" y="111">أدوار</text><text x="448" y="133">الموظفين</text></g>
-          <g class="node"><circle cx="455" cy="374" r="38"/><text x="455" y="369">قوالب</text><text x="455" y="391">وتطبيق</text></g>
-          <g class="node"><circle cx="104" cy="369" r="38"/><text x="104" y="364">قياس</text><text x="104" y="386">الأثر</text></g>
-          <path class="flow" d="M151 126 C210 98 255 78 318 102"/>
-          <path class="flow" d="M440 157 C452 221 459 277 455 335"/>
-          <path class="flow" d="M418 392 C315 445 218 437 139 389"/>
-          <path class="flow" d="M97 330 C82 249 89 190 109 160"/>
-          <text class="center-label" x="280" y="250">برنامج مصمم</text>
-          <text class="center-small" x="280" y="280">تدريب + أدوات + نظام متابعة</text>
-        </svg>
+      <div class="hero-visual" aria-label="ملخص طريقة نهر">
+        <div class="hero-panel">
+          <div class="panel-top">
+            <img src="./assets/logo-dark.png" alt="شعار نهر" width="94" height="35" />
+            <span>طريقة العمل</span>
+          </div>
+          <div class="process-map">
+            <div><b>01</b><strong>تشخيص</strong><small>واقع الجهة والفئات المستهدفة</small></div>
+            <div><b>02</b><strong>تصميم</strong><small>ورش وقوالب حسب الأدوار</small></div>
+            <div><b>03</b><strong>تطبيق</strong><small>مهام حقيقية داخل العمل</small></div>
+            <div><b>04</b><strong>متابعة</strong><small>قياس استخدام وتحسين مستمر</small></div>
+          </div>
+          <div class="panel-note">البرنامج يتغير حسب السياق، وليس محتوى جاهزًا يوزع على الجميع.</div>
+        </div>
       </div>
     </section>
 
@@ -130,29 +117,17 @@
         <p class="eyebrow">النموذج التشغيلي</p>
         <h2>من تشخيص الاحتياج إلى نظام عمل واضح.</h2>
       </div>
-      <div class="dashboard-card">
+      <div class="dashboard-card clean-dashboard">
         <div class="dashboard-top"><span></span><strong>لوحة تصميم البرنامج</strong><em>نموذج توضيحي</em></div>
-        <div class="chart-layout">
-          <div class="radar" aria-label="رسم بياني لمستويات الجاهزية">
-            <svg viewBox="0 0 300 300">
-              <polygon points="150,28 266,95 266,205 150,272 34,205 34,95" fill="#fbf2e3" stroke="#ddc7a4"/>
-              <polygon points="150,66 230,112 230,188 150,234 70,188 70,112" fill="none" stroke="#e8d9c2"/>
-              <polygon points="150,92 212,118 205,184 150,214 92,188 88,122" fill="#315f5b" opacity=".18" stroke="#315f5b" stroke-width="3"/>
-              <line x1="150" y1="28" x2="150" y2="272" stroke="#eadcc8"/><line x1="34" y1="95" x2="266" y2="205" stroke="#eadcc8"/><line x1="266" y1="95" x2="34" y2="205" stroke="#eadcc8"/>
-              <text x="150" y="18">جاهزية AI</text><text x="280" y="96">تقارير</text><text x="278" y="214">أتمتة</text><text x="150" y="294">حوكمة</text><text x="12" y="214">تدريب</text><text x="10" y="96">تشغيل</text>
-            </svg>
-          </div>
-          <div class="bars">
-            <div><span>تشخيص</span><i style="--w:92%"></i></div>
-            <div><span>تصميم تدريب</span><i style="--w:78%"></i></div>
-            <div><span>قوالب تشغيل</span><i style="--w:86%"></i></div>
-            <div><span>نظام متابعة</span><i style="--w:68%"></i></div>
-          </div>
-          <div class="mini-stack">
-            <div><b>مخرجات</b><small>قابلة للتسليم</small></div>
-            <div><b>تطبيق</b><small>على مهام حقيقية</small></div>
-            <div><b>أثر</b><small>قبل / بعد</small></div>
-          </div>
+        <div class="ops-grid">
+          <article><b>تشخيص</b><p>نحدد الأدوار، حساسية البيانات، ومشاكل العمل المتكررة.</p></article>
+          <article><b>تدريب</b><p>ورش قصيرة بأمثلة من واقع الفريق، لا محاضرات عامة.</p></article>
+          <article><b>قوالب</b><p>أوامر وتقارير وإجراءات جاهزة للاستخدام بعد الورشة.</p></article>
+          <article><b>متابعة</b><p>مؤشرات بسيطة توضّح الاستخدام والعوائق والخطوات التالية.</p></article>
+        </div>
+        <div class="impact-strip">
+          <div><span>قبل</span><strong>استخدام فردي ومتفرق</strong></div>
+          <div><span>بعد</span><strong>طريقة عمل واضحة قابلة للقياس</strong></div>
         </div>
       </div>
     </section>
@@ -206,7 +181,7 @@
     <section id="contact" class="section contact-section">
       <div class="contact-card">
         <div>
-          <p class="eyebrow">Lead capture</p>
+          <p class="eyebrow">التواصل والتأهيل</p>
           <h2>خلّنا نبدأ برسالة قصيرة.</h2>
           <p>إذا عندك جهة، فريق، أو فرصة تدريب موظفين، أرسل لنا واتساب وسنرتب اجتماع تشخيص.</p>
         </div>
