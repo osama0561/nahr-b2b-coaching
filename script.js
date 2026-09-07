@@ -1,9 +1,18 @@
 const form = document.getElementById('leadForm');
 const note = document.getElementById('formNote');
+const whatsappNumber = '966530011411';
+
+function field(data, key, fallback = '-') {
+  const value = (data[key] || '').trim();
+  return value || fallback;
+}
+
 form.addEventListener('submit', (e) => {
   e.preventDefault();
   const data = Object.fromEntries(new FormData(form).entries());
-  const summary = `طلب اجتماع تشخيص احتياج - نهر\n\nالجهة: ${data.org}\nالقطاع: ${data.sector}\nالمسؤول: ${data.name}\nالمسمى: ${data.title || '-'}\nالجوال: ${data.phone}\nالإيميل: ${data.email}\nعدد الموظفين: ${data.employees}\nالفئة المستهدفة: ${data.levels}\nالتحدي: ${data.challenge}\nطريقة التنفيذ: ${data.format}\nوقت البدء: ${data.timeline}\nوقت التواصل المناسب: ${data.meeting || '-'}`;
-  note.innerHTML = `تم تجهيز ملخص الطلب. انسخه للفريق أو اربطه لاحقًا مع Google Sheets/CRM:<br><textarea readonly class="summary-box">${summary}</textarea>`;
-  note.scrollIntoView({behavior:'smooth', block:'center'});
+  const summary = `طلب اجتماع تشخيص - نهر\n\nالجهة: ${field(data, 'org')}\nالقطاع: ${field(data, 'sector')}\nالمسؤول: ${field(data, 'name')}\nالمسمى: ${field(data, 'title')}\nالجوال: ${field(data, 'phone')}\nالإيميل: ${field(data, 'email')}\nعدد الموظفين: ${field(data, 'employees')}\nالفئة المستهدفة: ${field(data, 'levels')}\nالتحدي: ${field(data, 'challenge')}\nطريقة التنفيذ: ${field(data, 'format')}\nوقت البدء: ${field(data, 'timeline')}\nملاحظات: ${field(data, 'meeting')}`;
+
+  const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(summary)}`;
+  note.innerHTML = `تم تجهيز رسالة واتساب. راجعها ثم أرسلها:<br><textarea readonly class="summary-box">${summary}</textarea><br><a class="btn primary" href="${url}" target="_blank" rel="noopener">فتح الرسالة في واتساب</a>`;
+  note.scrollIntoView({ behavior: 'smooth', block: 'center' });
 });

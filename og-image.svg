@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" dir="rtl">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fffaf2"/><stop offset="1" stop-color="#ead4b3"/></linearGradient>
+    <linearGradient id="dark" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#24313a"/><stop offset="1" stop-color="#111514"/></linearGradient>
+    <linearGradient id="gold" x1="0" x2="1"><stop stop-color="#f5d99d"/><stop offset="1" stop-color="#b88a4c"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="26" stdDeviation="22" flood-color="#4a3823" flood-opacity=".24"/></filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="160" cy="110" r="190" fill="#315f5b" opacity=".12"/>
+  <circle cx="1040" cy="560" r="260" fill="#b88a4c" opacity=".14"/>
+  <g filter="url(#shadow)">
+    <path d="M170 250 L330 160 L490 250 L330 340 Z" fill="url(#gold)"/>
+    <path d="M170 250 L330 340 L330 500 L170 400 Z" fill="#d6ae6c"/>
+    <path d="M490 250 L330 340 L330 500 L490 400 Z" fill="#966d43"/>
+  </g>
+  <rect x="560" y="120" width="500" height="330" rx="42" fill="#fff7eb" stroke="#dfc8a6"/>
+  <text x="1010" y="210" text-anchor="end" font-family="IBM Plex Sans Arabic, Arial" font-size="38" font-weight="800" fill="#315f5b">نهر</text>
+  <text x="1010" y="282" text-anchor="end" font-family="IBM Plex Sans Arabic, Arial" font-size="60" font-weight="800" fill="#171512">تمكين AI</text>
+  <text x="1010" y="352" text-anchor="end" font-family="IBM Plex Sans Arabic, Arial" font-size="42" font-weight="700" fill="#171512">مصمم حسب واقع منظمتك</text>
+  <text x="1010" y="415" text-anchor="end" font-family="IBM Plex Sans Arabic, Arial" font-size="25" font-weight="500" fill="#6d6255">تشخيص · تدريب عملي · قوالب تشغيل · نظام متابعة</text>
+</svg>
