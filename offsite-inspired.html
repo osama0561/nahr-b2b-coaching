@@ -21,25 +21,37 @@
           <stop offset="1" stop-color="#9f7441" />
         </linearGradient>
       </defs>
-      <mask id="wordReveal">
-        <rect x="805" y="105" width="0" height="275" fill="#fff">
-          <animate attributeName="x" from="805" to="175" dur="2.15s" begin="0.25s" fill="freeze" calcMode="spline" keySplines=".65 0 .2 1" />
-          <animate attributeName="width" from="0" to="630" dur="2.15s" begin="0.25s" fill="freeze" calcMode="spline" keySplines=".65 0 .2 1" />
+      <mask id="letterNoon">
+        <rect x="650" y="105" width="0" height="285" fill="#fff">
+          <animate attributeName="width" from="0" to="210" dur=".72s" begin=".25s" fill="freeze" calcMode="spline" keySplines=".65 0 .2 1" />
         </rect>
       </mask>
-      <text class="signature-word" x="500" y="320" text-anchor="middle" mask="url(#wordReveal)">نهر</text>
-      <path class="signature-drop" d="M318 318 C285 390 286 490 332 572 C360 622 418 660 500 684" />
+      <mask id="letterHa">
+        <rect x="420" y="105" width="0" height="285" fill="#fff">
+          <animate attributeName="width" from="0" to="250" dur=".72s" begin="1.02s" fill="freeze" calcMode="spline" keySplines=".65 0 .2 1" />
+        </rect>
+      </mask>
+      <mask id="letterRa">
+        <rect x="190" y="105" width="0" height="285" fill="#fff">
+          <animate attributeName="width" from="0" to="250" dur=".72s" begin="1.79s" fill="freeze" calcMode="spline" keySplines=".65 0 .2 1" />
+        </rect>
+      </mask>
+      <text class="signature-word" x="500" y="320" text-anchor="middle" mask="url(#letterNoon)">نهر</text>
+      <text class="signature-word" x="500" y="320" text-anchor="middle" mask="url(#letterHa)">نهر</text>
+      <text class="signature-word" x="500" y="320" text-anchor="middle" mask="url(#letterRa)">نهر</text>
+      <path class="signature-drop" d="M318 318 C286 390 292 505 365 575 C455 662 618 654 705 600 C748 574 775 535 785 500" />
     </svg>
   </div>
 
-  <header class="site-nav">
+  <header class="site-nav" aria-label="التنقل الرئيسي">
     <a class="logo" href="#top" aria-label="نهر"><img src="./assets/logo-dark.png" alt="شعار نهر" /></a>
-    <nav>
+    <button class="menu-toggle" type="button" aria-label="فتح القائمة" aria-expanded="false"><span></span><span></span></button>
+    <nav class="menu-panel" aria-label="روابط الصفحة">
       <a href="#services"><sup>/01</sup> الخدمات</a>
       <a href="#about"><sup>/02</sup> عن نهر</a>
       <a href="#team"><sup>/03</sup> الفريق</a>
+      <a href="#needs-form"><sup>/04</sup> نموذج الاحتياج</a>
     </nav>
-    <a class="nav-cta" href="#needs-form">نموذج الاحتياج</a>
   </header>
 
   <main id="top">
