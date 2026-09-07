@@ -3,7 +3,7 @@ const path = require('path');
 const out = path.join(__dirname, 'public');
 fs.rmSync(out, { recursive: true, force: true });
 fs.mkdirSync(out, { recursive: true });
-for (const file of ['index.html','styles.css','script.js','robots.txt','sitemap.xml','og-image.svg','3d-concepts.html','concepts.css']) {
+for (const file of ['index.html','styles.css','script.js','robots.txt','sitemap.xml','og-image.svg','3d-concepts.html','concepts.css','offsite-inspired.html','offsite-inspired.css','offsite-inspired.js']) {
   fs.copyFileSync(path.join(__dirname, file), path.join(out, file));
 }
 fs.cpSync(path.join(__dirname, 'assets'), path.join(out, 'assets'), { recursive: true });
