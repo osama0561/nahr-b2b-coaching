@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>نهر | تمكين الذكاء الاصطناعي للشركات والجهات</title>
+  <meta name="description" content="برنامج تمكين ذكاء اصطناعي مصمم حسب واقع الجهة: تشخيص، ورش تطبيقية، مكتبة أوامر، قوالب تشغيل، ونظام متابعة." />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://nahrai.com/companies/" />
+  <meta property="og:title" content="نهر | تمكين عملي للذكاء الاصطناعي داخل الجهة" />
+  <meta property="og:description" content="نساعد الجهات على تحويل الذكاء الاصطناعي من اهتمام عام إلى استخدام عملي داخل الأدوار اليومية، من خلال تشخيص الاحتياج، تدريب تطبيقي، قوالب عمل، وآلية متابعة." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="/assets/renders/og-river.webp" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="preload" href="/assets/fonts/NotoNaskhArabic-Bold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="/styles.css" />
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@graph":[{"@type":"ProfessionalService","@id":"https://nahrai.com/companies/#service","name":"نهر","url":"https://nahrai.com/companies/","areaServed":{"@type":"Country","name":"Saudi Arabia"},"serviceType":["تمكين الموظفين بالذكاء الاصطناعي","تدريب AI للشركات","تطوير أنظمة العمل","قوالب تشغيلية"],"description":"برنامج تمكين ذكاء اصطناعي مصمم حسب احتياج الجهة، يشمل تشخيص الواقع، تدريب الموظفين، قوالب تشغيل، وأنظمة متابعة داخلية.","telephone":"+966541356286","inLanguage":"ar-SA"},{"@type":"FAQPage","@id":"https://nahrai.com/companies/#faq","mainEntity":[{"@type":"Question","name":"هل البرنامج دورة تدريبية جاهزة؟","acceptedAnswer":{"@type":"Answer","text":"لا. يوجد تدريب وورش، لكن البرنامج يبدأ بتشخيص واقع الجهة وأدوار الموظفين ثم يتم تخصيص الأمثلة والقوالب وطريقة التطبيق."}},{"@type":"Question","name":"هل يوجد سعر ثابت؟","acceptedAnswer":{"@type":"Answer","text":"لا يتم عرض أسعار ثابتة علنًا؛ يتم تحديد النطاق بعد فهم حجم الجهة والأدوار المستهدفة ومستوى التمكين المطلوب."}},{"@type":"Question","name":"هل تحتاجون بيانات حساسة؟","acceptedAnswer":{"@type":"Answer","text":"لا ترسل بيانات حساسة في الخطوة الأولى. نحتاج وصفًا عامًا للاحتياج وسياق الجهة فقط."}}]}]}
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-pill">
+      <a class="brandmark" href="/" aria-label="نهر">نهر</a>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-label="فتح القائمة" aria-controls="siteMenu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <nav class="site-menu" id="siteMenu" aria-label="التنقل الرئيسي">
+      <a href="/companies">للشركات والجهات</a>
+      <a href="/about">من نحن</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <picture class="hero-art" aria-hidden="true">
+        <source media="(max-width:720px)" srcset="/assets/renders/river-hero-mobile.webp">
+        <img src="/assets/renders/river-hero.webp" alt="" />
+      </picture>
+      <div class="hero-copy reveal visible">
+        <div class="signature-mark" aria-label="نهر">
+          <span class="signature-fill">نهر</span>
+          <svg viewBox="0 0 520 320" aria-hidden="true">
+            <path class="final-stroke" pathLength="1" d="M112 214 C168 248 258 250 334 224 C392 204 432 220 434 270 C434 292 426 307 418 318" />
+          </svg>
+        </div>
+        <p class="eyebrow">للجهات التي تريد تطبيق الذكاء الاصطناعي داخل العمل اليومي</p>
+        <h1 id="hero-title">تمكين عملي للذكاء الاصطناعي داخل الجهة.</h1>
+        <p class="lead">نبدأ بتشخيص واقع الجهة وأدوار الموظفين، ثم نصمم ورشًا تطبيقية وقوالب تشغيل تساعد الفرق على استخدام أدوات الذكاء الاصطناعي في التقارير، التواصل، التحليل، والمتابعة.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#form">ابدأ بتشخيص الاحتياج</a>
+          <a class="btn secondary" href="/">ورشة التقرير الأخير</a>
+        </div>
+        <div class="trust-row" aria-label="مميزات مختصرة">
+          <span>تشخيص قبل التنفيذ</span><span>تدريب حسب الدور</span><span>قوالب قابلة للتطبيق</span><span>متابعة بعد الورشة</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="why" class="section intro-grid">
+      <div class="section-copy reveal">
+        <p class="eyebrow">لماذا تحتاج الجهات إلى منهجية؟</p>
+        <h2>التحدي ليس معرفة الأدوات، بل تحويلها إلى طريقة عمل.</h2>
+        <p>كثير من مبادرات الذكاء الاصطناعي تبدأ بورشة عامة وتنتهي بحماس مؤقت. ما تحتاجه الجهة هو ربط الأدوات بالأدوار، التقارير، القرارات، وخطوات العمل اليومية.</p>
+      </div>
+      <figure class="visual-card reveal">
+        <img src="/assets/renders/river-macro.webp" alt="تفاصيل نهر أبيض منحوت على خلفية سوداء" />
+        <figcaption>كل جهة لها واقع مختلف: أدوار، مستويات معرفة، أدوات قائمة، وآلية متابعة.</figcaption>
+      </figure>
+    </section>
+
+    <section id="how" class="section dark-band">
+      <p class="eyebrow reveal">المنهجية</p>
+      <h2 class="section-title reveal">منهجية تبدأ من الواقع وتنتهي بأدوات قابلة للاستخدام.</h2>
+      <div class="steps">
+        <article class="step reveal"><span>01</span><h3>تشخيص الواقع</h3><p>نفهم طبيعة الجهة، أدوار الموظفين، مستوى استخدام الأدوات، والتحديات المتكررة في التقارير والتواصل وسير العمل.</p></article>
+        <article class="step reveal"><span>02</span><h3>تصميم حالات الاستخدام</h3><p>نحدد أين يمكن للذكاء الاصطناعي أن يضيف قيمة فعلية داخل كل دور أو إدارة، بدون تعميم أو أمثلة بعيدة عن العمل.</p></article>
+        <article class="step reveal"><span>03</span><h3>تدريب وتفعيل</h3><p>ننَفّذ ورشًا تطبيقية ونبني مكتبة أوامر وقوالب تساعد الموظفين على استخدام ما تعلموه مباشرة.</p></article>
+        <article class="step reveal"><span>04</span><h3>متابعة وتحسين</h3><p>نراجع الاستخدام بعد التنفيذ، نجمع الأسئلة، ونحسن القوالب حسب ما يظهر في التطبيق الفعلي.</p></article>
+      </div>
+    </section>
+
+    <section class="section layers">
+      <p class="eyebrow reveal">ماذا تحصل عليه الجهة؟</p>
+      <h2 class="section-title reveal">مخرجات عملية يتحدد نطاقها بعد التشخيص.</h2>
+      <p class="section-intro reveal">يختلف نطاق البرنامج حسب حجم الجهة والأدوار المستهدفة، لكن المخرجات تدور حول ثلاث طبقات عملية.</p>
+      <div class="layer-grid">
+        <article class="layer reveal"><h3>ورش تطبيقية حسب الدور</h3><p>جلسات عملية مصممة حول مهام الموظفين اليومية، مثل إعداد التقارير، تلخيص المستندات، تحليل البيانات، وصياغة المراسلات.</p></article>
+        <article class="layer reveal"><h3>مكتبة أوامر وقوالب</h3><p>أوامر جاهزة، قوالب تقارير، أدلة استخدام، وقوائم تحقق تساعد الفريق على تكرار النتائج بجودة أعلى.</p></article>
+        <article class="layer reveal"><h3>إطار متابعة واعتماد</h3><p>آلية مبسطة لمتابعة الاستخدام، استقبال الأسئلة، تحسين القوالب، وضمان أن التطبيق يتم بطريقة مسؤولة.</p></article>
+      </div>
+      <img class="divider-river reveal" src="/assets/renders/river-divider.webp" alt="نهر أبيض كفاصل بصري بين أقسام البرنامج" />
+    </section>
+
+    <section id="fit" class="section fit-section">
+      <div class="fit-card reveal">
+        <p class="eyebrow">لمن يناسب البرنامج؟</p>
+        <h2>مناسب للجهات التي تريد تطبيقًا منظمًا، لا تدريبًا عابرًا.</h2>
+        <div class="fit-columns">
+          <div><h3>مناسب لـ</h3><ul><li>إدارات التدريب والتطوير</li><li>الموارد البشرية</li><li>فرق العمليات والتقارير</li><li>فرق التسويق والمبيعات</li><li>القيادات التي تريد استخدامًا مسؤولًا وواضحًا للذكاء الاصطناعي</li></ul></div>
+          <div><h3>ليس مناسبًا لـ</h3><ul><li>من يبحث عن محاضرة تعريفية فقط</li><li>من يريد وعود نتائج غير قابلة للقياس</li><li>من لا يستطيع توفير سياق حقيقي عن احتياج الجهة</li></ul></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section proof">
+      <div class="proof-copy reveal">
+        <p class="eyebrow">وضوح قبل الوعود</p>
+        <h2>وضوح في المنهجية، ومخرجات تُراجع داخل العمل.</h2>
+        <p>لا نعتمد على عرض أدوات فقط. نركز على مخرجات يمكن مراجعتها: حالات استخدام، قوالب، أوامر، آلية متابعة، وخطة تطبيق تناسب الجهة.</p>
+      </div>
+      <div class="video-frame reveal">
+        <video src="/assets/video/river-journey.mp4" autoplay muted loop playsinline aria-label="مشهد نهر أبيض يتحرك على خلفية سوداء"></video>
+      </div>
+    </section>
+
+    <section id="form" class="section form-section">
+      <div class="form-intro reveal">
+        <p class="eyebrow">نموذج الاحتياج</p>
+        <h2>ابدأ بتشخيص احتياج الجهة.</h2>
+        <p>شارك وصفًا عامًا عن الجهة والتحدي الحالي، وسيتم تجهيز رسالة منظمة لترتيب اجتماع تشخيص عبر واتساب. لا ترسل بيانات حساسة أو معلومات عملاء في هذه المرحلة.</p>
+      </div>
+      <form class="lead-form reveal" id="leadForm">
+        <label>اسم الجهة<input required name="org" placeholder="مثال: شركة / جهة / إدارة" /></label>
+        <label>القطاع<input required name="sector" placeholder="حكومي، خاص، غير ربحي..." /></label>
+        <label>اسم المسؤول<input required name="name" placeholder="الاسم" /></label>
+        <label>المسمى الوظيفي<input name="title" placeholder="مدير تدريب، HR، مدير إدارة..." /></label>
+        <label>رقم الجوال<input required name="phone" placeholder="05xxxxxxxx" inputmode="tel" /></label>
+        <label>البريد الإلكتروني<input name="email" placeholder="name@company.com" inputmode="email" /></label>
+        <label>عدد الموظفين<select name="employees"><option>أقل من 50</option><option>50 - 200</option><option>200 - 1000</option><option>أكثر من 1000</option></select></label>
+        <label>الفئة المستهدفة<select name="levels"><option>كل الموظفين</option><option>موظفين تشغيليين</option><option>متخصصين</option><option>مشرفين ومدراء</option><option>قيادات تنفيذية</option><option>مزيج من أكثر من مستوى</option></select></label>
+        <label class="full">أكبر تحدي حاليًا<textarea required name="challenge" placeholder="مثال: التقارير متفرقة، الموظفين ما يعرفوا يستخدموا AI، المتابعة ضعيفة..."></textarea></label>
+        <label>طريقة التنفيذ المفضلة<select name="format"><option>حضوري</option><option>عن بعد</option><option>هجين</option><option>غير محدد</option></select></label>
+        <label>متى ترغبون بالبدء؟<select name="timeline"><option>خلال شهر</option><option>1 - 3 أشهر</option><option>بعد 3 أشهر</option><option>غير محدد</option></select></label>
+        <label class="full">ملاحظات إضافية<input name="meeting" placeholder="وقت مناسب للتواصل أو أي تفاصيل مهمة" /></label>
+        <button class="btn primary full" type="submit">تجهيز رسالة التشخيص</button>
+        <p class="form-note" id="formNote">بعد الإرسال ستظهر رسالة واتساب جاهزة للمراجعة قبل إرسالها.</p>
+      </form>
+    </section>
+
+    <section id="faq" class="section faq">
+      <p class="eyebrow reveal">أسئلة مهمة</p>
+      <h2 class="section-title reveal">أسئلة تساعد على تحديد الملاءمة.</h2>
+      <details class="reveal"><summary>هل البرنامج دورة تدريبية جاهزة؟</summary><p>لا. البرنامج قد يتضمن ورشًا تدريبية، لكنه يبدأ بتشخيص واقع الجهة ثم يتم تصميم المحتوى والقوالب وطريقة التطبيق حسب الأدوار والاحتياج.</p></details>
+      <details class="reveal"><summary>هل يوجد سعر ثابت؟</summary><p>لا يتم عرض سعر ثابت علنًا، لأن النطاق يعتمد على حجم الجهة، عدد الفئات المستهدفة، صيغة التنفيذ، والمخرجات المطلوبة.</p></details>
+      <details class="reveal"><summary>هل تحتاجون بيانات حساسة؟</summary><p>لا. في المرحلة الأولى نحتاج وصفًا عامًا للتحديات وسير العمل. لا نطلب بيانات عملاء أو معلومات سرية.</p></details>
+      <details class="reveal"><summary>ما الذي يميز نهر عن ورشة AI عامة؟</summary><p>التركيز على التطبيق داخل العمل: تشخيص، حالات استخدام، قوالب، تدريب حسب الدور، ومتابعة بعد التنفيذ.</p></details>
+      <details class="reveal"><summary>كيف يبدأ التعاون؟</summary><p>تعبئة النموذج، مراجعة الرسالة، ثم التواصل عبر واتساب لترتيب اجتماع تشخيص إذا كانت الملاءمة واضحة.</p></details>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div><strong class="brandmark">نهر</strong><p>تمكين الموظفين وأنظمة العمل بالذكاء الاصطناعي.</p></div>
+    <div class="footer-links"><a href="/about">من نحن</a><a href="https://wa.me/966541356286" target="_blank" rel="noopener">واتساب</a><a href="tel:0541356286">اتصال</a><a href="https://www.instagram.com/nahrai" target="_blank" rel="noopener">Instagram</a><a href="https://www.linkedin.com/company/nahrai" target="_blank" rel="noopener">LinkedIn</a><a href="/privacy">سياسة الخصوصية</a><a href="/refund">سياسة الاسترجاع/الاسترداد</a></div>
+  </footer>
+  <script src="/scripts/main.js"></script>
+</body>
+</html>

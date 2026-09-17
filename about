@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>من نحن | نهر</title>
+  <meta name="description" content="تعرف على فريق نهر وخبرته في تحويل الذكاء الاصطناعي إلى تطبيق عملي داخل العمل والتقارير." />
+  <link rel="canonical" href="https://nahrai.com/about" />
+  <meta property="og:title" content="من نحن | نهر" />
+  <meta property="og:description" content="فريق نهر يبني تعليمًا عمليًا وأنظمة ذكاء اصطناعي قابلة للاستخدام في العمل." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://nahrai.com/about" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-pill">
+      <a class="brandmark" href="/" aria-label="نهر">نهر</a>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-label="فتح القائمة" aria-controls="siteMenu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <nav class="site-menu" id="siteMenu" aria-label="التنقل الرئيسي">
+      <a href="/companies">للشركات والجهات</a>
+      <a href="/about">من نحن</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero about-hero" aria-labelledby="about-title">
+      <picture class="hero-art" aria-hidden="true">
+        <source media="(max-width:720px)" srcset="/assets/renders/river-hero-mobile.webp">
+        <img src="/assets/renders/river-hero.webp" alt="" />
+      </picture>
+      <div class="hero-copy reveal visible">
+        <p class="eyebrow">من نحن</p>
+        <h1 id="about-title">نبني تعليمًا عمليًا للذكاء الاصطناعي من واقع العمل.</h1>
+        <p class="lead">نهر ليس صفحة أدوات ولا محتوى عام. نركز على تحويل الذكاء الاصطناعي إلى أنظمة عمل مفهومة: تقارير، قوالب، سير عمل، مراجعة جودة، وتطبيق قابل للتكرار.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="/">ورشة التقرير الأخير</a>
+          <a class="btn secondary" href="/companies">حلول الشركات والجهات</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about-team-section">
+      <div class="who-head reveal">
+        <p class="eyebrow">الفريق</p>
+        <h2>سنضيف الصور والخبرة الدقيقة هنا بعد إرسالها.</h2>
+        <p>جهزت الصفحة كصفحة مستقلة حتى لا تختلط مع صفحة المنتج. لا توجد صور وهمية ولا إنجازات مخترعة؛ فقط مكان واضح لاستبداله بصور أسامة والشريك المؤسس وسيرتهم المهنية.</p>
+      </div>
+      <div class="founder-grid reveal" aria-label="فريق نهر">
+        <article class="founder-card">
+          <div class="founder-photo placeholder" aria-label="صورة أسامة ستضاف لاحقًا">أسامة</div>
+          <div><span>المؤسس</span><h3>أسامة الكلثمي</h3><p>يركز على بناء تطبيقات عملية للذكاء الاصطناعي في التقارير، المحتوى، التعليم، وأنظمة العمل، بحيث تتحول المعرفة إلى نظام يمكن استخدامه وقياسه.</p></div>
+        </article>
+        <article class="founder-card">
+          <div class="founder-photo placeholder" aria-label="صورة الشريك المؤسس ستضاف لاحقًا">الشريك</div>
+          <div><span>الشريك المؤسس</span><h3>بانتظار الاسم والصورة</h3><p>بعد إرسال الصورة والتفاصيل، سنكتب هنا الخبرة المرتبطة بنهر: المجال، الأدوار السابقة، نقاط القوة، ولماذا وجوده يرفع ثقة العميل.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section dark-band about-belief-section">
+      <p class="eyebrow reveal">طريقتنا</p>
+      <h2 class="section-title reveal">لا نبدأ من الأداة. نبدأ من التقرير، القرار، وسير العمل.</h2>
+      <div class="steps">
+        <article class="step reveal"><span>01</span><h3>واقع العمل</h3><p>نفهم المهمة المتكررة ومصدر البيانات ومن يستخدم المخرجات.</p></article>
+        <article class="step reveal"><span>02</span><h3>نظام واضح</h3><p>نحوّل المهمة إلى خطوات قابلة للتنفيذ والمراجعة، بدل الاعتماد على تجربة عشوائية.</p></article>
+        <article class="step reveal"><span>03</span><h3>جودة قابلة للثقة</h3><p>نضيف مراجعة وقياس وتحسين حتى يصبح الناتج مفيدًا داخل العمل الحقيقي.</p></article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div><strong class="brandmark">نهر</strong><p>نظام تقاريرك يبدأ من هنا.</p></div>
+    <div class="footer-links"><a href="/">ورشة التقرير الأخير</a><a href="/companies">للشركات والجهات</a><a href="https://wa.me/966541356286" target="_blank" rel="noopener">واتساب</a><a href="/privacy">سياسة الخصوصية</a><a href="/refund">سياسة الاسترجاع/الاسترداد</a></div>
+  </footer>
+  <script src="/scripts/main.js"></script>
+</body>
+</html>
