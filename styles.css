@@ -109,3 +109,9 @@
 .site-header.menu-open .site-menu{position:fixed;top:0;right:0;left:auto;transform:translateX(0)}
 .site-header.menu-open .header-pill{position:fixed;top:22px;right:clamp(20px,4vw,70px);left:auto;margin:0}
 @media(max-width:920px){.site-header.menu-open .header-pill{top:16px;right:17px}.site-header.menu-open .site-menu{right:0;left:0;width:100vw}}
+
+
+/* Hard override for open slide navigation */
+.site-menu.open{transform:none!important;right:0!important;left:auto!important;visibility:visible!important;opacity:1!important}
+.site-header.menu-open .site-menu.open{transform:none!important;right:0!important;left:auto!important}
+@media(max-width:920px){.site-menu.open,.site-header.menu-open .site-menu.open{left:0!important;right:0!important;width:100vw!important}}
