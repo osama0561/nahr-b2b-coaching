@@ -115,3 +115,12 @@
 .site-menu.open{transform:none!important;right:0!important;left:auto!important;visibility:visible!important;opacity:1!important}
 .site-header.menu-open .site-menu.open{transform:none!important;right:0!important;left:auto!important}
 @media(max-width:920px){.site-menu.open,.site-header.menu-open .site-menu.open{left:0!important;right:0!important;width:100vw!important}}
+
+
+/* Reliable navigation: keep page links directly visible and clickable */
+.menu-toggle{display:none!important}
+.site-header{pointer-events:auto!important}
+.site-menu,.site-menu.compact-menu{position:static!important;transform:none!important;visibility:visible!important;opacity:1!important;pointer-events:auto!important;height:auto!important;width:auto!important;max-width:none!important;margin:10px auto 0!important;display:flex!important;flex-direction:row!important;justify-content:center!important;gap:10px!important;padding:0!important;background:transparent!important;border-radius:0!important;box-shadow:none!important;color:#fff!important}
+.site-menu::before,.site-menu::after,.site-menu a::after,.nav-backdrop{display:none!important}
+.site-menu a,.site-menu.compact-menu a{min-height:0!important;padding:12px 18px!important;border-radius:999px!important;background:rgba(247,247,244,.96)!important;color:#090909!important;font-size:14px!important;font-weight:800!important;box-shadow:0 12px 30px rgba(0,0,0,.24)!important;display:inline-flex!important;width:auto!important}
+@media(max-width:920px){.site-menu,.site-menu.compact-menu{flex-wrap:wrap;margin-top:8px!important}.site-menu a,.site-menu.compact-menu a{font-size:12px!important;padding:10px 13px!important}.site-header{width:calc(100vw - 28px)!important}.header-pill{justify-content:center!important}}
